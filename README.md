@@ -1,5 +1,9 @@
 # Mission-Based Reinforcement Learning: Health Extension Worker in the Ethiopian Highlands
 
+Demo video: [Project demo](https://drive.google.com/file/d/16CLYEquDzF4A4dtY76DdSLrYviK8Nb1A/view?usp=sharing)
+
+Report: [Project report](https://docs.google.com/document/d/1b7Iwre0gEmrwpm_AGunhDjDfS9MUTrLYM7aycKBkTZM/edit?usp=sharing)
+
 A Health Extension Worker (HEW) walks an 8×8 grid of a highland _kebele_, starting at the **Health Post**. The goal is to treat or refer sick households before **sunset**.
 
 Medicine, energy and health-centre referral slots are limited, and untreated disease gets worse. The agent has to decide **who to visit, when to treat, when to refer, when to restock and when to rest.**
