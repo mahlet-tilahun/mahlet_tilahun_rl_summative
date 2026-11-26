@@ -1,0 +1,22 @@
+{
+ "algo": "ppo",
+ "run": 9,
+ "cfg": {
+  "lr": 0.0005,
+  "gamma": 0.99,
+  "hidden": 64,
+  "total_frames": 120000,
+  "n_envs": 8,
+  "frames_per_batch": 640,
+  "entropy_coef": 0.0,
+  "lmbda": 0.95,
+  "clip_eps": 0.2,
+  "epochs": 4,
+  "minibatch": 128,
+  "critic_coef": 0.5
+ },
+ "mean_reward": 5.509999999999991,
+ "episodes": 2363,
+ "episodes_to_converge": 1429,
+ "seconds": 70.42018723487854
+}

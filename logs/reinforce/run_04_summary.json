@@ -1,0 +1,18 @@
+{
+ "algo": "reinforce",
+ "run": 4,
+ "cfg": {
+  "lr": 0.001,
+  "gamma": 0.95,
+  "hidden": 64,
+  "total_frames": 120000,
+  "n_envs": 8,
+  "frames_per_batch": 640,
+  "entropy_coef": 0.01,
+  "normalize_returns": true
+ },
+ "mean_reward": -14.366666666666667,
+ "episodes": 1604,
+ "episodes_to_converge": 115,
+ "seconds": 60.44444751739502
+}

@@ -1,0 +1,19 @@
+{
+ "algo": "a2c",
+ "run": 3,
+ "cfg": {
+  "lr": 0.0003,
+  "gamma": 0.99,
+  "hidden": 64,
+  "total_frames": 120000,
+  "n_envs": 8,
+  "frames_per_batch": 160,
+  "entropy_coef": 0.01,
+  "lmbda": 0.95,
+  "critic_coef": 0.5
+ },
+ "mean_reward": -32.13333333333334,
+ "episodes": 1504,
+ "episodes_to_converge": 629,
+ "seconds": 60.43089270591736
+}

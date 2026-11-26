@@ -1,0 +1,22 @@
+{
+ "algo": "dqn",
+ "run": 7,
+ "cfg": {
+  "lr": 0.001,
+  "gamma": 0.99,
+  "buffer_size": 50000,
+  "batch_size": 128,
+  "eps_end": 0.05,
+  "eps_anneal_frames": 20000,
+  "tau_target": 0.01,
+  "hidden": 64,
+  "total_frames": 100000,
+  "n_envs": 4,
+  "frames_per_batch": 32,
+  "updates_per_batch": 8
+ },
+ "mean_reward": 15.708333333333304,
+ "episodes": 1316,
+ "episodes_to_converge": 774,
+ "seconds": 116.81260752677917
+}
